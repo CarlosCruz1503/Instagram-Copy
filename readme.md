@@ -4,18 +4,25 @@ Este proyecto es una Aplicación emula las funciones de instagram
 el Front esta desarollado con React y ReduxJS y el BackEnd esta desarrollado con Django-Rest-Framework y SimpleJWT
 
 La aplicación emula las funciones principales de instagram como por ejemplo :
+
 *Crear un usuario
+
 *Editar un usuario
+
 *Ver los datos de un usuario
+
 *Registrarse , Loguearse (JWT)
 
 *Crear Publicaciones (Con Imagenes y Descripción)
+
 *Eliminar Publicaciones
 
 *Crear Comentarios en publicaciones
+
 *Eliminar Comentarios de publicaciones
 
 *Dar corazones a publicaciones
+
 *Quitar los corazones a una publicaciones
 
 ## 🔗 DEMO:
