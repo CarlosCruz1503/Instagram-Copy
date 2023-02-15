@@ -1,0 +1,201 @@
+.div-navbar {
+    width: auto;
+    width: 10rem;
+    height: 100vh;
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    background-color: #eeeeee;
+
+    .ul-navbar {
+        height: 100%;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+
+
+        li {
+            cursor: pointer;
+            text-align: center;
+
+            p {
+                margin: 1rem 0.5rem;
+                padding: 0;
+                font-weight: 600;
+                font-size: 1.5rem;
+            }
+
+            .li-div-icons {
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                margin: 1rem;
+
+                .li-icon {
+                    width: 2rem;
+                    height: 2rem;
+                }
+
+            }
+
+            .li-div-icons-down {
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+                flex-direction: column;
+
+                p {
+                    margin: 0;
+                    padding: 0;
+                    font-weight: 600;
+                    font-size: 1.5rem;
+                }
+
+                .li-icon {
+                    width: 2rem;
+                    height: 2rem;
+                    margin: 1rem;
+                    justify-self: center;
+                    align-self: center;
+                }
+
+            }
+
+            .li-div-img {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                p {
+                    margin: 0 0.5rem;
+                    word-wrap: break-word;
+                    max-width: 10rem;
+                    padding: 0;
+                    font-weight: 600;
+                    font-size: 1.5rem;
+                }
+
+                .li-img {
+                    max-width: 3rem;
+                    max-height: 3rem;
+                }
+            }
+        }
+    }
+}
+
+.go-up {
+    display: block;
+    background-repeat: no-repeat;
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    left: 3.75rem;
+    z-index: 1000;
+}
+
+@media (max-width: 992px) {
+
+    .go-up {
+        left: 1.5rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .div-navbar {
+        width: 5rem;
+        border: 1px solid rgba(0, 0, 0, 0.164);
+        margin: 0;
+
+        .ul-navbar {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+
+
+            li {
+                p {
+                    display: none;
+                }
+
+                .li-div-icons {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+
+
+                    .li-icon {}
+
+                }
+
+                .li-div-img {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+
+                    .li-img {
+                        margin: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .div-navbar {
+        width: 3rem;
+        border: 1px solid rgba(0, 0, 0, 0.164);
+        margin: 0;
+
+        .ul-navbar {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+
+
+            li {
+                p {
+                    display: none;
+                }
+
+                .li-div-icons {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+
+
+                    .li-icon {}
+
+                }
+
+                .li-div-img {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+
+                    .li-img {
+                        margin: 0rem 1rem;
+                    }
+                }
+            }
+        }
+    }
+    .go-up{
+        left: 0.5rem;
+    }
+}

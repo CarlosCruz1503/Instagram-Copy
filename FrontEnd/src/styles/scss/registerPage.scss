@@ -1,0 +1,48 @@
+.register-div {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+    .register {
+        margin-top: 1rem;
+        width: 25rem;
+        height: auto;
+        background-color: #FFFFFF;
+        text-align: center;
+        border: 1px solid rgba(0, 0, 0, 0.164);
+
+        h2 {
+            margin-top: 3rem;
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        p {
+            color: rgba(0, 0, 0, 0.479);
+            font-weight: 500;
+        }
+    }
+
+    .login-link {
+        background-color: #FEFFFE;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1px solid rgba(0, 0, 0, 0.164);
+        width: 25rem;
+        height: 5rem;
+        margin: 1rem 0.5rem;
+
+        .login-btn {
+            border: none;
+            background-color: #FEFFFE;
+            color: #4DB5F9;
+            font-weight: 600;
+        }
+    }
+}

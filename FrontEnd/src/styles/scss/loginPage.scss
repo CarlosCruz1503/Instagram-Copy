@@ -1,0 +1,77 @@
+.div-login {
+
+    .login {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+
+        .container {
+            .row {
+                .col-photo-cel {
+                    .photo-cel {
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        height: 100%;
+
+                        img {
+                            max-width: 100%;
+                            max-height: 50rem;
+                        }
+                    }
+                }
+
+                .col-form-div {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    .form-div {
+                        background-color: #FEFFFE;
+                        text-align: center;
+                        border: 1px solid rgba(0, 0, 0, 0.164);
+                        height: 30rem;
+                        margin: 0rem 0.5rem;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        width: 25rem;
+
+                        h1 {
+                            margin: 3rem 0;
+                        }
+                    }
+                    .register-link {
+                        background-color: #FEFFFE;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        border: 1px solid rgba(0, 0, 0, 0.164);
+                        width: 25rem;
+                        height: 5rem;
+                        margin: 1rem 0.5rem;
+
+                        .reg-btn {
+                            border: none;
+                            background-color: #FEFFFE;
+                            color: #4DB5F9;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .col-photo-cel {
+        display: none;
+    }
+}

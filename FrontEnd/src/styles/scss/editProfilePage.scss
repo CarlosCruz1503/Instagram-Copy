@@ -1,0 +1,168 @@
+.div-editprofile {
+    display: flex;
+
+    .profile {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 1px solid rgba(0, 0, 0, 0.164);
+
+
+        .div-img-profile {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .disclaimer {
+                text-align: center;
+                margin: 1rem 5rem;
+            }
+
+            .img-profile {
+                max-width: 12rem;
+                max-height: 12rem;
+
+            }
+
+            .img-profile-edit {
+                max-width: 6rem;
+                max-height: 6rem;
+            }
+
+            .div-text {
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+                text-align: center;
+
+                .user-name {}
+            }
+        }
+
+        .profile-sec {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .btn-guardar {
+            display: flex;
+            align-items: center;
+            width: auto;
+            justify-content: center;
+
+            .btn {}
+        }
+    }
+}
+
+.form {
+    .input-edit {
+        border: none;
+        outline: none;
+        width: 30rem;
+    }
+}
+.form-edit-image-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .background-image{
+    }
+    .btn{
+        margin: 1rem 0;
+        border: none;
+        background-color: #4DB5F9;
+        color: #FEFFFE;
+        font-weight: 600;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .div-editprofile {
+        display: flex;
+
+        .profile {
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .div-img-profile {
+                display: flex;
+                border: 1px solid rgba(0, 0, 0, 0.164);
+                .disclaimer {
+                    text-align: center;
+                    margin: 1rem 2rem;
+                }
+
+                .img-profile {
+                    max-width: 6rem;
+                    max-height: 6rem;
+                    margin: 0rem;
+                }
+
+                .img-profile-edit {
+                    max-width: 3rem;
+                    max-height: 3rem;
+                    margin: 0rem;
+                }
+
+                .div-text {
+                    display: flex;
+                    flex-direction: column;
+                    align-content: center;
+                    justify-content: center;
+                    text-align: center;
+
+                    .user-name {
+                        margin: 0 0rem;
+                        padding: 0.5rem 0rem;
+                        font-size: 0.8rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    button {}
+                }
+            }
+        }
+    }
+    .form {
+        .input-edit {
+            border: none;
+            outline: none;
+            width: 15rem;
+        }
+    }
+    .form-edit-image-profile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    
+        .background-image{
+        }
+        .btn{
+            margin: 1rem 0;
+            border: none;
+            background-color: #4DB5F9;
+            color: #FEFFFE;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+    }
+}

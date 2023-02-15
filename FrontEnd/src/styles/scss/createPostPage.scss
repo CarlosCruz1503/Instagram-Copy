@@ -1,0 +1,25 @@
+.preview{
+    .img-fluid{
+        max-height: 30rem;
+        max-width: 30rem;
+    }
+}
+@media (max-width: 768px) {
+    .preview{
+        .img-fluid{
+            max-height: 20rem;
+            max-width: 20rem;
+        }
+    }
+}
+@media (max-width: 480px) {
+    .preview{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .img-fluid{
+            max-height: 10rem;
+            max-width: 10rem;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .form-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        width: 20rem;
+        height: auto;
+
+        .field-form {
+            outline: none;
+            border: none;
+            border: 1px solid rgba(0, 0, 0, 0.164);
+            padding: 0.5rem 1rem;
+            width: 100%;
+            background-color: #cce0eac2;
+            border-radius: 0.5rem;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+            color: rgba(0, 0, 0, 0.815);
+        }
+
+        .btn {
+            width: 100%;
+            background-color: #4DB5F9;
+            color: white;
+            font-weight: 700;
+            margin: 2rem;
+        }
+
+    }
+}

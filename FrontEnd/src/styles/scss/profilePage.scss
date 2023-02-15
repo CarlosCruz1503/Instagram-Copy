@@ -1,0 +1,137 @@
+.div-profile {
+    display: flex;
+
+    .profile {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 1px solid rgba(0, 0, 0, 0.164);
+
+        p{
+            margin: 0;
+            padding: 0;
+        }
+
+        .div-img-profile {
+            display: flex;
+            width: auto;
+
+            .img-profile {
+                max-width: 12rem;
+                max-height: 12rem;
+                margin: 2rem;
+            }
+
+            .div-text {
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+                text-align: center;
+
+                .user-name {
+                    margin: 0 1rem;
+                    padding: 0.5rem 1rem;
+                    font-size: 3rem;
+                }
+
+                button {}
+            }
+        }
+
+        .profile-sec {
+            display: flex;
+            max-width: 50rem;
+            margin: 1rem 2rem;
+            .your-post{
+                margin: 0rem 0 1rem 0;
+                padding: 1rem;
+            }
+            .profile-blogs{
+                border: 1px solid rgba(0, 0, 0, 0.164);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 1rem 0rem;
+                .profile-img-blogs{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .img-fluid{
+                        cursor: pointer;
+                    }
+                    .text-image-blogs{
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        background-color: rgb(0, 0, 0);
+                        color:white;
+                        padding: 1rem;
+                        transform: scale(0);
+                        
+                    }
+                }
+                .profile-img-blogs:hover{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .text-image-blogs{
+                        transition: 0.5s ease-in-out;
+                        transform: scale(1);
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .div-profile {
+        display: flex;
+
+        .profile {
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .div-img-profile {
+                display: flex;
+                border: 1px solid rgba(0, 0, 0, 0.164);
+
+                .img-profile {
+                    max-width: 6rem;
+                    max-height: 6rem;
+                    margin: 0rem;
+                }
+
+                .div-text {
+                    display: flex;
+                    flex-direction: column;
+                    align-content: center;
+                    justify-content: center;
+                    text-align: center;
+
+                    .user-name {
+                        margin: 0 1rem;
+                        padding: 0;
+                        font-size: 1.75rem;
+                    }
+
+                    button {}
+                }
+            }
+
+            .profile-sec {
+            }
+        }
+    }
+}
